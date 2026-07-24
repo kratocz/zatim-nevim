@@ -47,3 +47,9 @@ zbytek si odvodíš sám.
 
 *Repo je záměrně pojmenované tak, aby si ho nikdo nespletl s autoritativním zdrojem.
 Když hledáš opravdové lekce, začni vestavěným `vimtutor`.*
+
+## Licence
+
+Obsah je pod licencí [CC BY 4.0](LICENSE) — sdílej a upravuj libovolně (i komerčně),
+jen uveď autora (Petr Kratochvíl, [kratocz/zatim-nevim](https://github.com/kratocz/zatim-nevim))
+a vyznač případné změny.
