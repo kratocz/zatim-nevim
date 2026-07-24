@@ -60,6 +60,11 @@ v IDE, tady najdeš vimácký ekvivalent. `Space` = LazyVim leader.
 | Git panel | `Space gg` (lazygit) |
 | Documentation on hover | `K` |
 
+## Co dál
+
+Chceš jít hlouběji? Pokračuj [Trackem B — Přechod z IDE](../prechod-z-ide/README.md):
+vim přímo uvnitř VS Code / JetBrains, multi-cursor po vimácku, `:g` global command.
+
 ---
 
 Když si nevíš rady: **`Esc` tě vrátí do klidu a `Space` ukáže, co dál.** Zbytek je praxe. 🚀

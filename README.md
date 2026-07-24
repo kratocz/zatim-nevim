@@ -16,8 +16,8 @@ Nejsou to oficiální lekce, je to zápisník, který roste s tím, jak se učí
 - **[cviceni/](cviceni/)** — konkrétní soubory k procvičování zásahů.
 
 Kurz má tři tracky (viz [ROADMAP](ROADMAP.md)): **A — Kurz od nuly** (lineární, níže),
-**B — Přechod z IDE** (goal-oriented pro lidi z VS Code / JetBrains), **C — Recepty**
-(task taháky). Tracky B a C se plní postupně.
+**[B — Přechod z IDE](prechod-z-ide/)** (goal-oriented pro lidi z VS Code / JetBrains;
+hotové B0–B2), **C — Recepty** (task taháky, plánováno).
 
 ## Lekce
 

@@ -53,6 +53,14 @@ Mnemotechnika: `i` = *inside* (uvnitř), `a` = *around* (včetně okraje).
 | `/vzor` `n` `N` | hledej / další / předchozí výskyt |
 | `:%s/staré/nové/g` | nahraď v celém souboru |
 
+## Dávkové triky („multi-cursor")
+| Co | Jak |
+|----|-----|
+| Změň další výskyt hledaného a opakuj | `*` → `cgn` → `.` (změň) / `n` (přeskoč) |
+| Text na začátek / konec více řádků | `Ctrl-v` označ → `I` / (`$`) `A` → text → `Esc` |
+| Příkaz na každém řádku se vzorem | `:g/vzor/d`, `:g/vzor/m$`, `:g/vzor/normal …` |
+| Nech jen řádky se vzorem | `:v/vzor/d` |
+
 ## LazyVim navrch
 | Klávesa | Co |
 |---------|-----|

@@ -42,7 +42,7 @@ Před většinu pohybů můžeš napsat číslo: `3w` = o tři slova vpřed, `5j
 |---------|-----|
 | `Ctrl-o` | skoč zpět na předchozí pozici (jako „back" v prohlížeči) |
 | `Ctrl-i` | skoč vpřed |
-| `` `` `` | zpět na místo před posledním skokem |
+| ``` `` ``` | zpět na místo před posledním skokem |
 
 ## Cvičení
 Otevři `../cviceni/03-pohyb.txt` a bez šipek:

@@ -35,4 +35,4 @@ nvim ../cviceni/01-preziti.txt
 - [ ] Ulož (`:w`) a zavři (`:q`).
 
 ## Co dál
-Až tohle půjde bez přemýšlení → [lekce 02: gramatika](02-gramatika.md) (zatím TODO).
+Až tohle půjde bez přemýšlení → [lekce 02 — Tři režimy pořádně](02-tri-rezimy.md).

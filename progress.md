@@ -55,5 +55,23 @@ Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na 
 ## [10 — IDE → vim mapa](lekce/10-ide-vim-mapa.md)
 - [ ] Projít referenční tahák
 
+---
+
+## Track B — [Přechod z IDE](prechod-z-ide/README.md)
+
+### [B0 — vim uvnitř IDE](prechod-z-ide/00-vim-uvnitr-ide.md)
+- [ ] Nainstalovat VSCodeVim / IdeaVim, namapovat `jk` → `Esc`
+- [ ] Zapnout `relativenumber` a zkusit `5j` / `3k`
+
+### [B1 — Multi-cursor po vimácku](prechod-z-ide/01-multicursor.md)
+- [ ] `*` → `cgn` + `.` / `n`
+- [ ] Visual block: `Ctrl-v` + `I` / `$ A` / `c`
+- [ ] Vědět, kdy sáhnout po `:g` a kdy po makru (rozhodovací tabulka)
+
+### [B2 — :g global command](prechod-z-ide/02-global-command.md)
+- [ ] `:g/vzor/d`, `:v/vzor/d`
+- [ ] `:g/vzor/m$`, `:g/vzor/t$`
+- [ ] `:g/./normal A;`
+
 ## Poznámky
 <!-- Sem si píšu, co mi nešlo, co mi cvaklo, na co se zeptat příště. -->

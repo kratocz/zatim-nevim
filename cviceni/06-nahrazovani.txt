@@ -23,6 +23,6 @@ y tenhle NE (nech být)
 Označ první tři řádky přes V, pak :'<,'>s/^x/-/
 
 === BONUS: skupiny ===
-Kratochvil Petr
-Novak Jan
-Prohoď na "Prijmeni, Jmeno" přes :%s/\(\w\+\) \(\w\+\)/\2, \1/
+Petr Kratochvil
+Jan Novak
+Prohoď "Jmeno Prijmeni" na "Prijmeni, Jmeno" přes :%s/\(\w\+\) \(\w\+\)/\2, \1/
