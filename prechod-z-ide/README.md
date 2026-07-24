@@ -13,6 +13,8 @@ Pokud jsi nováček úplně od nuly, začni radši [Trackem A](../lekce/) (kurz 
 | B2 | [`:g` global command](02-global-command.md) | dávková editace „udělej X na každém řádku s Y" | ✅ |
 | B3 | [Z VS Code do vim](03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
 | B4 | [Z JetBrains do vim](04-jetbrains.md) | mapování akcí, IdeaVim jako mezistanice, hybrid | ✅ |
-| B5+ | Refaktoring, Git, Debugging… | viz [ROADMAP](../ROADMAP.md) | 🔜 |
+| B5 | [Refaktoring](05-refaktoring.md) | žebřík LSP → textové nástroje, quickfix `:cfdo` | ✅ |
+| B6 | [Git jako GitLens](06-git.md) | gitsigns + lazygit, hunk workflow, blame | ✅ |
+| B7+ | Workspace, Autocomplete, Debugging… | viz [ROADMAP](../ROADMAP.md) | 🔜 |
 
 Kompletní plán je v [ROADMAP.md](../ROADMAP.md).

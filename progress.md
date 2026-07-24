@@ -81,5 +81,15 @@ Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na 
 - [ ] `.ideavimrc`: leader + `<Action>(…)` mapy, `set surround`
 - [ ] LazyVim ekvivalenty: `Space ca` (Alt+Enter), `Ctrl-Space` (extend selection)
 
+### [B5 — Refaktoring](prechod-z-ide/05-refaktoring.md)
+- [ ] `Space cr` rename + kontrola přes `gr`
+- [ ] Visual výběr → `Space ca` → Extract (co umí můj server?)
+- [ ] Quickfix recept: `Space /` → `Ctrl-q` → `:cfdo %s/…/…/gc | update`
+
+### [B6 — Git jako GitLens](prechod-z-ide/06-git.md)
+- [ ] Hunk workflow: `]h` → `Space ghp` → `Space ghs` / `Space ghu`
+- [ ] Blame `Space gb`, otevřít na GitHubu `Space gB`
+- [ ] lazygit: `Space gg`, stage `Space`, commit `c`, push `P`, nápověda `?`
+
 ## Poznámky
 <!-- Sem si píšu, co mi nešlo, co mi cvaklo, na co se zeptat příště. -->

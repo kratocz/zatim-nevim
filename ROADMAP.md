@@ -36,13 +36,13 @@ lekce 10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 | B2 | [`:g` global command](prechod-z-ide/02-global-command.md) | dávková editace — „udělej X na každém řádku, kde je Y" | ✅ |
 | B3 | [Z VS Code do vim](prechod-z-ide/03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
 | B4 | [Z JetBrains do vim](prechod-z-ide/04-jetbrains.md) | mapování akcí (Alt+Enter…), IdeaVim jako mezistanice, hybrid | ✅ |
-| B5 | Refaktoring | rename, extract, organize imports → LSP code actions | 🔜 |
-| B6 | Git jako GitLens | gitsigns, hunky, blame, `Space gg` (lazygit) | 🔜 |
+| B5 | [Refaktoring](prechod-z-ide/05-refaktoring.md) | žebřík: LSP rename/actions → quickfix `:cfdo` → `cgn`; poctivé limity | ✅ |
+| B6 | [Git jako GitLens](prechod-z-ide/06-git.md) | gitsigns (hunky, blame) + lazygit za 60 s + workflow bez opuštění editoru | ✅ |
 | B7 | Multi-file & workspace | goto file/symbol, splity, file tree, jump list | 🔜 |
 | B8 | Autocomplete & snippety | IntelliSense → nvim-cmp / blink | 🔜 |
 | B9 | Debugging | breakpointy, step → nvim-dap | 🔜 |
 
-**Hotovo:** B0–B4. **Nejbližší na řadě:** B5 (Refaktoring), B6 (Git jako GitLens).
+**Hotovo:** B0–B6. **Nejbližší na řadě:** B7 (Multi-file & workspace), B8 (Autocomplete & snippety).
 
 ## Track C — Recepty 🔜
 

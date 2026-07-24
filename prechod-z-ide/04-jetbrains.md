@@ -84,5 +84,4 @@ editor na serveru přes ssh a gramatiku, která funguje všude.
 - [ ] Vyzkoušej `Ctrl-Space` / `Backspace` (extend/shrink selection) na reálném kódu.
 
 ## Co dál
-Zpět na [index Tracku B](README.md), nebo [ROADMAP](../ROADMAP.md) — na řadě je B5
-(Refaktoring) a B6 (Git jako GitLens).
+[B5 — Refaktoring](05-refaktoring.md), nebo zpět na [index Tracku B](README.md).
