@@ -34,15 +34,15 @@ lekce 10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 | B0 | [vim *uvnitř* tvého IDE](prechod-z-ide/00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — uč se gramatiku bez opuštění známého prostředí | ✅ |
 | B1 | [Multi-cursor po vimácku](prechod-z-ide/01-multicursor.md) | `Cmd+D` → `cgn`+`.`, visual-block `Ctrl-v`, makra, `:g/…/normal` | ✅ |
 | B2 | [`:g` global command](prechod-z-ide/02-global-command.md) | dávková editace — „udělej X na každém řádku, kde je Y" | ✅ |
-| B3 | VS Code → vim | mentální model, mapování zkratek, kdy co | 🔜 |
-| B4 | JetBrains → vim | jiný svět zkratek než VS Code, vlastní lekce | 🔜 |
+| B3 | [Z VS Code do vim](prechod-z-ide/03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
+| B4 | [Z JetBrains do vim](prechod-z-ide/04-jetbrains.md) | mapování akcí (Alt+Enter…), IdeaVim jako mezistanice, hybrid | ✅ |
 | B5 | Refaktoring | rename, extract, organize imports → LSP code actions | 🔜 |
 | B6 | Git jako GitLens | gitsigns, hunky, blame, `Space gg` (lazygit) | 🔜 |
 | B7 | Multi-file & workspace | goto file/symbol, splity, file tree, jump list | 🔜 |
 | B8 | Autocomplete & snippety | IntelliSense → nvim-cmp / blink | 🔜 |
 | B9 | Debugging | breakpointy, step → nvim-dap | 🔜 |
 
-**Hotovo:** B0, B1, B2. **Nejbližší na řadě:** B3, B4.
+**Hotovo:** B0–B4. **Nejbližší na řadě:** B5 (Refaktoring), B6 (Git jako GitLens).
 
 ## Track C — Recepty 🔜
 

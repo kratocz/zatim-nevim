@@ -11,8 +11,8 @@ Pokud jsi nováček úplně od nuly, začni radši [Trackem A](../lekce/) (kurz 
 | B0 | [vim uvnitř tvého IDE](00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — gramatika bez opuštění IDE | ✅ |
 | B1 | [Multi-cursor po vimácku](01-multicursor.md) | `Cmd+D` → `cgn`, visual-block, `:g`, makra | ✅ |
 | B2 | [`:g` global command](02-global-command.md) | dávková editace „udělej X na každém řádku s Y" | ✅ |
-| B3 | VS Code → vim | mapování zkratek, mentální model | 🔜 |
-| B4 | JetBrains → vim | IdeaVim, jiný svět zkratek | 🔜 |
+| B3 | [Z VS Code do vim](03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
+| B4 | [Z JetBrains do vim](04-jetbrains.md) | mapování akcí, IdeaVim jako mezistanice, hybrid | ✅ |
 | B5+ | Refaktoring, Git, Debugging… | viz [ROADMAP](../ROADMAP.md) | 🔜 |
 
 Kompletní plán je v [ROADMAP.md](../ROADMAP.md).

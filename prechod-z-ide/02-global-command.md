@@ -66,4 +66,4 @@ Otevři `../cviceni/global-command.txt`:
 - [ ] Nech jen řádky obsahující `keep`: `:v/keep/d`.
 
 ## Co dál
-Zpět na [index Tracku B](README.md) nebo do [ROADMAP](../ROADMAP.md) pro další témata.
+[B3 — Z VS Code do vim](03-vscode.md), nebo zpět na [index Tracku B](README.md).

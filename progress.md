@@ -73,5 +73,13 @@ Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na 
 - [ ] `:g/vzor/m$`, `:g/vzor/t$`
 - [ ] `:g/./normal A;`
 
+### [B3 — Z VS Code do vim](prechod-z-ide/03-vscode.md)
+- [ ] `Space sk` jako „paleta zkratek", projít mapu zkratek
+- [ ] Naplánovat fáze přechodu (VSCodeVim → LazyVim na poznámky → projekty)
+
+### [B4 — Z JetBrains do vim](prechod-z-ide/04-jetbrains.md)
+- [ ] `.ideavimrc`: leader + `<Action>(…)` mapy, `set surround`
+- [ ] LazyVim ekvivalenty: `Space ca` (Alt+Enter), `Ctrl-Space` (extend selection)
+
 ## Poznámky
 <!-- Sem si píšu, co mi nešlo, co mi cvaklo, na co se zeptat příště. -->
