@@ -91,5 +91,17 @@ Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na 
 - [ ] Blame `Space gb`, otevřít na GitHubu `Space gB`
 - [ ] lazygit: `Space gg`, stage `Space`, commit `c`, push `P`, nápověda `?`
 
+### [B07 — Multi-file & workspace](prechod-z-ide/B07-workspace.md)
+- [ ] Globální marky `mA`/`mB` napříč soubory, picker `Space sm`
+- [ ] `Ctrl-o`/`Ctrl-i` napříč soubory, session `Space qs`
+
+### [B08 — Autocomplete a snippety](prechod-z-ide/B08-autocomplete.md)
+- [ ] `Ctrl-Space` / `Ctrl-n` / `Ctrl-p` / `Enter` / `Ctrl-e`
+- [ ] Snippet + `Tab`/`S-Tab`, inlay hints `Space uh`
+
+### [B09 — Debugging](prechod-z-ide/B09-debugging.md)
+- [ ] Zapnout `dap.core` + jazykový Extra
+- [ ] `Space db` / `dc` / `dO` / `du` / `dw` na malém skriptu
+
 ## Poznámky
 <!-- Sem si píšu, co mi nešlo, co mi cvaklo, na co se zeptat příště. -->

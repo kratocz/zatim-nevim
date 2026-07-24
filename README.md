@@ -17,7 +17,7 @@ Nejsou to oficiální lekce, je to zápisník, který roste s tím, jak se učí
 
 Kurz má tři tracky (viz [ROADMAP](ROADMAP.md)): **A — Kurz od nuly** (lineární, níže),
 **[B — Přechod z IDE](prechod-z-ide/)** (goal-oriented pro lidi z VS Code / JetBrains;
-hotové B00–B06), **C — Recepty** (task taháky, plánováno).
+kompletní B00–B09), **C — Recepty** (task taháky, plánováno).
 
 ## Lekce
 

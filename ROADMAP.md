@@ -23,7 +23,7 @@ Lineární výuka od „umím jen spustit vim" po plynulé ovládání.
 | A09 | [LazyVim navrch](lekce/A09-lazyvim-navrch.md) | ✅ |
 | A10 | [IDE → vim mapa](lekce/A10-ide-vim-mapa.md) | ✅ |
 
-## Track B — Přechod z IDE 🚧
+## Track B — Přechod z IDE ✅
 
 Pro lidi přicházející z VS Code nebo JetBrains. Goal-oriented: každá lekce odpovídá na
 reálný dotaz typu *„jak ve vim udělám to, co v IDE dělám takhle"*. Rozšíření populární
@@ -38,11 +38,11 @@ lekce A10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 | B04 | [Z JetBrains do vim](prechod-z-ide/B04-jetbrains.md) | mapování akcí (Alt+Enter…), IdeaVim jako mezistanice, hybrid | ✅ |
 | B05 | [Refaktoring](prechod-z-ide/B05-refaktoring.md) | žebřík: LSP rename/actions → quickfix `:cfdo` → `cgn`; poctivé limity | ✅ |
 | B06 | [Git jako GitLens](prechod-z-ide/B06-git.md) | gitsigns (hunky, blame) + lazygit za 60 s + workflow bez opuštění editoru | ✅ |
-| B07 | Multi-file & workspace | goto file/symbol, splity, file tree, jump list | 🔜 |
-| B08 | Autocomplete & snippety | IntelliSense → nvim-cmp / blink | 🔜 |
-| B09 | Debugging | breakpointy, step → nvim-dap | 🔜 |
+| B07 | [Multi-file & workspace](prechod-z-ide/B07-workspace.md) | root/projekt, globální marky, sessions, jump list | ✅ |
+| B08 | [Autocomplete a snippety](prechod-z-ide/B08-autocomplete.md) | blink.cmp, snippety, inlay hints, AI extras | ✅ |
+| B09 | [Debugging](prechod-z-ide/B09-debugging.md) | nvim-dap, launch.json z VS Code, poctivý žebřík | ✅ |
 
-**Hotovo:** B00–B06. **Nejbližší na řadě:** B07 (Multi-file & workspace), B08 (Autocomplete & snippety).
+**Track B je kompletní** (B00–B09).
 
 ## Track C — Recepty 🔜
 

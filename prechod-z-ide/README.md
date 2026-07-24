@@ -15,6 +15,8 @@ Pokud jsi nováček úplně od nuly, začni radši [Trackem A](../lekce/) (kurz 
 | B04 | [Z JetBrains do vim](B04-jetbrains.md) | mapování akcí, IdeaVim jako mezistanice, hybrid | ✅ |
 | B05 | [Refaktoring](B05-refaktoring.md) | žebřík LSP → textové nástroje, quickfix `:cfdo` | ✅ |
 | B06 | [Git jako GitLens](B06-git.md) | gitsigns + lazygit, hunk workflow, blame | ✅ |
-| B07+ | Workspace, Autocomplete, Debugging… | viz [ROADMAP](../ROADMAP.md) | 🔜 |
+| B07 | [Multi-file & workspace](B07-workspace.md) | root/projekt, globální marky, sessions | ✅ |
+| B08 | [Autocomplete a snippety](B08-autocomplete.md) | blink.cmp, snippety, inlay hints, AI | ✅ |
+| B09 | [Debugging](B09-debugging.md) | nvim-dap, launch.json, poctivý žebřík | ✅ |
 
 Kompletní plán je v [ROADMAP.md](../ROADMAP.md).

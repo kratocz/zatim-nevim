@@ -68,5 +68,4 @@ V libovolném repu (klidně v tomhle):
 - [ ] `Space gB` — otevři aktuální soubor na GitHubu.
 
 ## Co dál
-Zpět na [index Tracku B](README.md); podle [ROADMAP](../ROADMAP.md) následuje B07
-(Multi-file & workspace) a B08 (Autocomplete & snippety).
+[B07 — Multi-file & workspace](B07-workspace.md).
