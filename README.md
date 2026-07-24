@@ -9,10 +9,15 @@ Nejsou to oficiální lekce, je to zápisník, který roste s tím, jak se učí
 
 ## Jak s tímhle repem pracovat
 
+- **[ROADMAP.md](ROADMAP.md)** — kam kurz míří: tři tracky (kurz od nuly, přechod z IDE, recepty).
 - **[progress.md](progress.md)** — kde právě jsem, co už umím a co je na řadě.
 - **[cheatsheet.md](cheatsheet.md)** — gramatika vim na jednom místě (módy, operátory, pohyby, text objekty).
-- **[lekce/](lekce/)** — postupné lekce od přežití k plynulosti.
+- **[lekce/](lekce/)** — postupné lekce od přežití k plynulosti (Track A).
 - **[cviceni/](cviceni/)** — konkrétní soubory k procvičování zásahů.
+
+Kurz má tři tracky (viz [ROADMAP](ROADMAP.md)): **A — Kurz od nuly** (lineární, níže),
+**B — Přechod z IDE** (goal-oriented pro lidi z VS Code / JetBrains), **C — Recepty**
+(task taháky). Tracky B a C se plní postupně.
 
 ## Lekce
 
