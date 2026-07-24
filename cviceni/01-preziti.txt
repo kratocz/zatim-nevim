@@ -1,0 +1,16 @@
+Cvičný soubor k lekci 01 — Přežití.
+
+Tenhle soubor je bezpečné hřiště. Můžeš ho rozsekat, jak chceš —
+originál je v gitu, takže se k němu vždycky vrátíš přes `git checkout`.
+
+--- ÚKOLY ---
+
+1. Sem se dostaň jen pomocí h j k l (žádné šipky!).
+2. Tenhle řádek smaž celý přes dd.
+3. V tomto řádku smaž slovo XXXXX pomocí x (znak po znaku) nebo dw.
+4. Přepiš tuto větu: napiš i, něco dopiš, pak Esc.
+5. Rozbij tenhle řádek a pak ho vrať přes u.
+
+--- KONEC ---
+
+Až budeš hotový: :w a :q. Nebo když nechceš uložit změny: :q!
