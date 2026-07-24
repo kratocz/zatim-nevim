@@ -1,4 +1,4 @@
-Cvičný soubor k lekci 05 — Registry. Obnova: git checkout -- 05-registry.txt
+Cvičný soubor k lekci A05 — Registry. Obnova: git checkout -- A05-registry.txt
 
 PŘESUN: tenhle řádek přesuň dolů přes dd a p.
 cíl přesunu ↑ vlož ho sem někam.

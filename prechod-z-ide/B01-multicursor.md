@@ -1,4 +1,4 @@
-# B1 — Multi-cursor po vimácku
+# B01 — Multi-cursor po vimácku
 
 Nejčastější otázka lidí z VS Code: *„kde je `Cmd+D`?"* Odpověď: vim **nemá** multi-cursor
 nativně — a většinou ho nepotřebuje, protože má čtyři přístupy, které jsou v součtu silnější.
@@ -10,7 +10,7 @@ Klíč je vybrat správný podle situace.
 |---------|---------|
 | Stejná změna slova na mnoha výskytech, chci přeskakovat | **`cgn` + `.`** |
 | Stejný text na začátek/konec/sloupec více řádků | **visual block `Ctrl-v`** |
-| Změna jen na řádcích, které splňují vzor | **`:g/vzor/normal …`** ([lekce B2](02-global-command.md)) |
+| Změna jen na řádcích, které splňují vzor | **`:g/vzor/normal …`** ([lekce B02](B02-global-command.md)) |
 | Složitá vícekroková opakovaná úprava | **makro** (`qa … q`, `@a`) |
 
 ## 1) `cgn` + `.` — postupná náhrada s přeskakováním
@@ -43,12 +43,12 @@ Když má změna proběhnout jen tam, kde je nějaký vzor:
 ```
 :g/console\./normal A  // TODO smazat
 ```
-(na každý řádek s `console.` připoj komentář). Víc v [lekci B2](02-global-command.md).
+(na každý řádek s `console.` připoj komentář). Víc v [lekci B02](B02-global-command.md).
 
 ## 4) Makro — když je to složité
 
 Cokoli, co uděláš ručně, nahraješ jako makro a přehraješ na všech výskytech —
-viz [lekce 07](../lekce/07-undo-opakovani-makra.md).
+viz [lekce A07](../lekce/A07-undo-opakovani-makra.md).
 
 ## „Ale já fakt chci VS Code multi-cursor"
 
@@ -57,10 +57,10 @@ multi-kurzory. Klidně si ho přidej — ale nauč se napřed nativní čtyřku,
 zvládnou věci, na které multi-cursor nestačí (podmíněné a vícekrokové úpravy).
 
 ## Cvičení
-Otevři `../cviceni/multicursor.txt`:
+Otevři `../cviceni/B01-multicursor.txt`:
 - [ ] Přejmenuj všechny `foo` na `bar` přes `*` → `cgn` → `.` / `n`.
 - [ ] Přidej `;` na konec pěti řádků přes `Ctrl-v` + `$` + `A`.
 - [ ] Zakomentuj tři řádky najednou přes `Ctrl-v` + `I` + `// ` + `Esc`.
 
 ## Co dál
-[B2 — `:g` global command](02-global-command.md).
+[B02 — `:g` global command](B02-global-command.md).

@@ -1,4 +1,4 @@
-# Lekce 06 — Hledání a nahrazování
+# A06 — Hledání a nahrazování
 
 Cíl: umět v souboru **najít** text a **nahradit** ho — včetně toho, co znáš z IDE jako
 „Replace / Skip / Replace All" a „nahradit jen ve výběru".
@@ -90,7 +90,7 @@ Příklad — prohodit `jmeno prijmeni` na `prijmeni, jmeno`:
 
 Otevři cvičný soubor:
 ```bash
-nvim ../cviceni/06-nahrazovani.txt
+nvim ../cviceni/A06-nahrazovani.txt
 ```
 
 - [ ] Najdi slovo `foo` přes `/foo` a proskákej výskyty `n` / `N`.
@@ -100,4 +100,4 @@ nvim ../cviceni/06-nahrazovani.txt
 - [ ] Označ tři řádky přes `V` a nahraď v nich `x` za `-` jen ve výběru.
 
 ## Co dál
-[Lekce 07 — Undo, opakování a makra](07-undo-opakovani-makra.md).
+[Lekce A07 — Undo, opakování a makra](A07-undo-opakovani-makra.md).

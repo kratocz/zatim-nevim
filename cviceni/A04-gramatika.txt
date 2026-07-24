@@ -1,4 +1,4 @@
-Cvičný soubor k lekci 04 — Gramatika. Obnova: git checkout -- 04-gramatika.txt
+Cvičný soubor k lekci A04 — Gramatika. Obnova: git checkout -- A04-gramatika.txt
 
 ciw: přepiš tohle_slovo na jiné.
 ci(: smaž a přepiš obsah (tady uvnitř závorek).

@@ -1,4 +1,4 @@
-# Lekce 07 — Undo, opakování a makra
+# A07 — Undo, opakování a makra
 
 Cíl: nedělat stejnou práci dvakrát. vim má tři úrovně „udělej to znovu": vrácení, tečku
 a makra — od nejjednoduššího po malé automaty.
@@ -48,9 +48,9 @@ Takhle procházíš výskyty a u každého se rozhoduješ `.` (změň) / `n` (p�
 interaktivní náhrady, ale s plnou silou editace.
 
 ## Cvičení
-Otevři `../cviceni/07-makra.txt`:
+Otevři `../cviceni/A07-makra.txt`:
 - [ ] Přidej středník na konec deseti řádků: `A;Esc`, pak `j.` `j.` … nebo makro `qa A;Esc j q` a `9@a`.
 - [ ] Přejmenuj všechny výskyty `foo` přes `*` → `cgn bar Esc` → `.` / `n`.
 
 ## Co dál
-[Lekce 08 — Více souborů](08-vice-souboru.md).
+[Lekce A08 — Více souborů](A08-vice-souboru.md).

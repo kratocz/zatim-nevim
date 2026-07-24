@@ -1,4 +1,4 @@
-# Lekce 02 — Tři režimy pořádně
+# A02 — Tři režimy pořádně
 
 Cíl: pochopit, proč vim „přepíná režimy", a umět mezi nimi plynule přecházet. Tohle je
 mentální model, na kterém stojí všechno ostatní — jakmile ho máš, vim přestane překvapovat.
@@ -42,7 +42,7 @@ Zpět do Normal módu vždycky **`Esc`** (nebo `Ctrl-[`, což je totéž a blí�
 | `Ctrl-v` | blokový (sloupcový) výběr |
 
 Když máš něco označeného, můžeš na to pustit operátor: `d` (smaž), `y` (zkopíruj),
-`c` (přepiš), `>` (odsaď). O tom je [lekce 04](04-gramatika.md).
+`c` (přepiš), `>` (odsaď). O tom je [lekce A04](A04-gramatika.md).
 
 ## Cvičení
 - [ ] Vyzkoušej všech šest vstupů do Insertu (`i a I A o O`) a sleduj, kam skočí kurzor.
@@ -50,4 +50,4 @@ Když máš něco označeného, můžeš na to pustit operátor: `d` (smaž), `y
 - [ ] Zvykni si po každé editaci mačkat `Esc` — návrat do Normal módu je „domovská pozice".
 
 ## Co dál
-[Lekce 03 — Pohyb](03-pohyb.md): jak se rychle dostat kamkoli.
+[Lekce A03 — Pohyb](A03-pohyb.md): jak se rychle dostat kamkoli.

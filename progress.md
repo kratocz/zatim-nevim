@@ -2,91 +2,91 @@
 
 Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na lekci.
 
-## [00 — Nouzové přežití](lekce/00-nouzove-preziti.md)
+## [A00 — Nouzové přežití](lekce/A00-nouzove-preziti.md)
 - [ ] Spustit `nvim`, `Esc` jako záchrana
 - [ ] Ukončit: `:q` `:q!` `:wq` `ZZ`
 
-## [01 — Přežití](lekce/01-preziti.md)
+## [A01 — Přežití](lekce/A01-preziti.md)
 - [ ] `h j k l`, `i` / `Esc`, `:w` / `:q`, `x`, `dd`, `u`
 
-## [02 — Tři režimy](lekce/02-tri-rezimy.md)
+## [A02 — Tři režimy](lekce/A02-tri-rezimy.md)
 - [ ] Rozlišit Normal / Insert / Visual
 - [ ] Vstupy do Insertu: `i a I A o O`
 - [ ] Visual: `v V Ctrl-v`
 
-## [03 — Pohyb](lekce/03-pohyb.md)
+## [A03 — Pohyb](lekce/A03-pohyb.md)
 - [ ] Po řádku: `0 ^ $`, `w b e`, `f t ; ,`
 - [ ] Po souboru: `gg G`, `{n}G` / `:{n}`, `{ }`, `Ctrl-d/u`
 - [ ] Count: `3w`, `5j`
 
-## [04 — Editační gramatika](lekce/04-gramatika.md)
+## [A04 — Editační gramatika](lekce/A04-gramatika.md)
 - [ ] Operátory `d c y > =`
 - [ ] Text objekty `iw i( i" ip it`
 - [ ] Skládání: `ciw`, `di(`, `dt,`, `>ip`
 - [ ] Zdvojení `dd yy cc`, tečka `.`
 
-## [05 — Kopírování a registry](lekce/05-kopirovani-registry.md)
+## [A05 — Kopírování a registry](lekce/A05-kopirovani-registry.md)
 - [ ] `yy dd p P`
 - [ ] Pojmenované registry `"ayy` / `"ap`, yank registr `"0p`
 - [ ] Systémová schránka `"+y` / `"+p`
 
-## [06 — Hledání a nahrazování](lekce/06-hledani-a-nahrazovani.md)
+## [A06 — Hledání a nahrazování](lekce/A06-hledani-a-nahrazovani.md)
 - [ ] Hledání `/ ?`, `n N`, `* #`, `:noh`
 - [ ] Rozsahy `:%`, `:10,20`, `:.,+5`, `:'<,'>`
 - [ ] Flagy `g`, **`c` (confirm)**, `i`
 - [ ] `:%s/x/y/gc` s `y n a q`
 
-## [07 — Undo, opakování, makra](lekce/07-undo-opakovani-makra.md)
+## [A07 — Undo, opakování, makra](lekce/A07-undo-opakovani-makra.md)
 - [ ] `u` / `Ctrl-r`, opakování `.`
 - [ ] Makra `qa … q`, `@a`, `5@a`
 - [ ] Multi-cursor po vimácku `cgn` + `.`
 
-## [08 — Více souborů](lekce/08-vice-souboru.md)
+## [A08 — Více souborů](lekce/A08-vice-souboru.md)
 - [ ] Buffery `:e :ls :b :bn :bp`, `Ctrl-^`
 - [ ] Splity `:vs :sp`, `Ctrl-w h/j/k/l`
 - [ ] Taby `:tabnew`, `gt gT`
 
-## [09 — LazyVim navrch](lekce/09-lazyvim-navrch.md)
+## [A09 — LazyVim navrch](lekce/A09-lazyvim-navrch.md)
 - [ ] Leader `Space` + which-key
 - [ ] Telescope `Space Space`, grep `Space /`, file tree `Space e`
 - [ ] LSP `gd gr K`, rename `Space cr`, code action `Space ca`
 - [ ] `:LazyExtras` (např. `lang.markdown`)
 
-## [10 — IDE → vim mapa](lekce/10-ide-vim-mapa.md)
+## [A10 — IDE → vim mapa](lekce/A10-ide-vim-mapa.md)
 - [ ] Projít referenční tahák
 
 ---
 
 ## Track B — [Přechod z IDE](prechod-z-ide/README.md)
 
-### [B0 — vim uvnitř IDE](prechod-z-ide/00-vim-uvnitr-ide.md)
+### [B00 — vim uvnitř IDE](prechod-z-ide/B00-vim-uvnitr-ide.md)
 - [ ] Nainstalovat VSCodeVim / IdeaVim, namapovat `jk` → `Esc`
 - [ ] Zapnout `relativenumber` a zkusit `5j` / `3k`
 
-### [B1 — Multi-cursor po vimácku](prechod-z-ide/01-multicursor.md)
+### [B01 — Multi-cursor po vimácku](prechod-z-ide/B01-multicursor.md)
 - [ ] `*` → `cgn` + `.` / `n`
 - [ ] Visual block: `Ctrl-v` + `I` / `$ A` / `c`
 - [ ] Vědět, kdy sáhnout po `:g` a kdy po makru (rozhodovací tabulka)
 
-### [B2 — :g global command](prechod-z-ide/02-global-command.md)
+### [B02 — :g global command](prechod-z-ide/B02-global-command.md)
 - [ ] `:g/vzor/d`, `:v/vzor/d`
 - [ ] `:g/vzor/m$`, `:g/vzor/t$`
 - [ ] `:g/./normal A;`
 
-### [B3 — Z VS Code do vim](prechod-z-ide/03-vscode.md)
+### [B03 — Z VS Code do vim](prechod-z-ide/B03-vscode.md)
 - [ ] `Space sk` jako „paleta zkratek", projít mapu zkratek
 - [ ] Naplánovat fáze přechodu (VSCodeVim → LazyVim na poznámky → projekty)
 
-### [B4 — Z JetBrains do vim](prechod-z-ide/04-jetbrains.md)
+### [B04 — Z JetBrains do vim](prechod-z-ide/B04-jetbrains.md)
 - [ ] `.ideavimrc`: leader + `<Action>(…)` mapy, `set surround`
 - [ ] LazyVim ekvivalenty: `Space ca` (Alt+Enter), `Ctrl-Space` (extend selection)
 
-### [B5 — Refaktoring](prechod-z-ide/05-refaktoring.md)
+### [B05 — Refaktoring](prechod-z-ide/B05-refaktoring.md)
 - [ ] `Space cr` rename + kontrola přes `gr`
 - [ ] Visual výběr → `Space ca` → Extract (co umí můj server?)
 - [ ] Quickfix recept: `Space /` → `Ctrl-q` → `:cfdo %s/…/…/gc | update`
 
-### [B6 — Git jako GitLens](prechod-z-ide/06-git.md)
+### [B06 — Git jako GitLens](prechod-z-ide/B06-git.md)
 - [ ] Hunk workflow: `]h` → `Space ghp` → `Space ghs` / `Space ghu`
 - [ ] Blame `Space gb`, otevřít na GitHubu `Space gB`
 - [ ] lazygit: `Space gg`, stage `Space`, commit `c`, push `P`, nápověda `?`

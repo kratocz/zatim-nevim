@@ -1,4 +1,4 @@
-# Lekce 03 — Pohyb
+# A03 — Pohyb
 
 Cíl: dostat kurzor kamkoli bez šipek a bez myši. Rychlý pohyb je základ, protože většina
 příkazů vim = „udělej něco **tam, kam se posuneš**".
@@ -45,10 +45,10 @@ Před většinu pohybů můžeš napsat číslo: `3w` = o tři slova vpřed, `5j
 | ``` `` ``` | zpět na místo před posledním skokem |
 
 ## Cvičení
-Otevři `../cviceni/03-pohyb.txt` a bez šipek:
+Otevři `../cviceni/A03-pohyb.txt` a bez šipek:
 - [ ] Dostaň se na řádek 10 přes `:10` i přes `10G`.
 - [ ] Skákej po slovech přes `w` a `b`, po znacích přes `f` a `t`.
 - [ ] Zkus `3w`, `2f-`, `$` a `^`.
 
 ## Co dál
-[Lekce 04 — Editační gramatika](04-gramatika.md): tady se to celé spojí v jazyk.
+[Lekce A04 — Editační gramatika](A04-gramatika.md): tady se to celé spojí v jazyk.

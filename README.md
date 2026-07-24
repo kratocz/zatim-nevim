@@ -17,7 +17,7 @@ Nejsou to oficiální lekce, je to zápisník, který roste s tím, jak se učí
 
 Kurz má tři tracky (viz [ROADMAP](ROADMAP.md)): **A — Kurz od nuly** (lineární, níže),
 **[B — Přechod z IDE](prechod-z-ide/)** (goal-oriented pro lidi z VS Code / JetBrains;
-hotové B0–B6), **C — Recepty** (task taháky, plánováno).
+hotové B00–B06), **C — Recepty** (task taháky, plánováno).
 
 ## Lekce
 
@@ -25,17 +25,17 @@ Kurz začíná úplně od nuly — předpokládá jen to, že umíš spustit vim
 
 | # | Lekce | O čem |
 |---|-------|-------|
-| 00 | [Nouzové přežití](lekce/00-nouzove-preziti.md) | spustit a **hlavně ukončit** vim |
-| 01 | [Přežití](lekce/01-preziti.md) | osm základních věcí |
-| 02 | [Tři režimy pořádně](lekce/02-tri-rezimy.md) | Normal / Insert / Visual |
-| 03 | [Pohyb](lekce/03-pohyb.md) | dostat se kamkoli bez šipek |
-| 04 | [Editační gramatika](lekce/04-gramatika.md) | `operátor + pohyb` — srdce vim |
-| 05 | [Kopírování a registry](lekce/05-kopirovani-registry.md) | yank, put, clipboard |
-| 06 | [Hledání a nahrazování](lekce/06-hledani-a-nahrazovani.md) | `:s`, rozsahy, confirm |
-| 07 | [Undo, opakování, makra](lekce/07-undo-opakovani-makra.md) | `.`, makra, `cgn` |
-| 08 | [Více souborů](lekce/08-vice-souboru.md) | buffery, splity, taby |
-| 09 | [LazyVim navrch](lekce/09-lazyvim-navrch.md) | leader, LSP, Telescope |
-| 10 | [IDE → vim mapa](lekce/10-ide-vim-mapa.md) | referenční tahák z IDE |
+| A00 | [Nouzové přežití](lekce/A00-nouzove-preziti.md) | spustit a **hlavně ukončit** vim |
+| A01 | [Přežití](lekce/A01-preziti.md) | osm základních věcí |
+| A02 | [Tři režimy pořádně](lekce/A02-tri-rezimy.md) | Normal / Insert / Visual |
+| A03 | [Pohyb](lekce/A03-pohyb.md) | dostat se kamkoli bez šipek |
+| A04 | [Editační gramatika](lekce/A04-gramatika.md) | `operátor + pohyb` — srdce vim |
+| A05 | [Kopírování a registry](lekce/A05-kopirovani-registry.md) | yank, put, clipboard |
+| A06 | [Hledání a nahrazování](lekce/A06-hledani-a-nahrazovani.md) | `:s`, rozsahy, confirm |
+| A07 | [Undo, opakování, makra](lekce/A07-undo-opakovani-makra.md) | `.`, makra, `cgn` |
+| A08 | [Více souborů](lekce/A08-vice-souboru.md) | buffery, splity, taby |
+| A09 | [LazyVim navrch](lekce/A09-lazyvim-navrch.md) | leader, LSP, Telescope |
+| A10 | [IDE → vim mapa](lekce/A10-ide-vim-mapa.md) | referenční tahák z IDE |
 
 ## Mentální model v jedné větě
 

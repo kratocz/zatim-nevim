@@ -1,4 +1,4 @@
-Cvičný soubor k lekci 03 — Pohyb. Obnova: git checkout -- 03-pohyb.txt
+Cvičný soubor k lekci A03 — Pohyb. Obnova: git checkout -- A03-pohyb.txt
 
 Řádek 1  — začni tady.
 Řádek 2  — skoč sem přes 2G nebo :2

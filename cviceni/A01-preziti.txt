@@ -1,4 +1,4 @@
-Cvičný soubor k lekci 01 — Přežití.
+Cvičný soubor k lekci A01 — Přežití.
 
 Tenhle soubor je bezpečné hřiště. Můžeš ho rozsekat, jak chceš —
 originál je v gitu, takže se k němu vždycky vrátíš přes `git checkout`.

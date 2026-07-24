@@ -8,13 +8,13 @@ Pokud jsi nováček úplně od nuly, začni radši [Trackem A](../lekce/) (kurz 
 
 | # | Lekce | O čem | Stav |
 |---|-------|-------|------|
-| B0 | [vim uvnitř tvého IDE](00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — gramatika bez opuštění IDE | ✅ |
-| B1 | [Multi-cursor po vimácku](01-multicursor.md) | `Cmd+D` → `cgn`, visual-block, `:g`, makra | ✅ |
-| B2 | [`:g` global command](02-global-command.md) | dávková editace „udělej X na každém řádku s Y" | ✅ |
-| B3 | [Z VS Code do vim](03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
-| B4 | [Z JetBrains do vim](04-jetbrains.md) | mapování akcí, IdeaVim jako mezistanice, hybrid | ✅ |
-| B5 | [Refaktoring](05-refaktoring.md) | žebřík LSP → textové nástroje, quickfix `:cfdo` | ✅ |
-| B6 | [Git jako GitLens](06-git.md) | gitsigns + lazygit, hunk workflow, blame | ✅ |
-| B7+ | Workspace, Autocomplete, Debugging… | viz [ROADMAP](../ROADMAP.md) | 🔜 |
+| B00 | [vim uvnitř tvého IDE](B00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — gramatika bez opuštění IDE | ✅ |
+| B01 | [Multi-cursor po vimácku](B01-multicursor.md) | `Cmd+D` → `cgn`, visual-block, `:g`, makra | ✅ |
+| B02 | [`:g` global command](B02-global-command.md) | dávková editace „udělej X na každém řádku s Y" | ✅ |
+| B03 | [Z VS Code do vim](B03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
+| B04 | [Z JetBrains do vim](B04-jetbrains.md) | mapování akcí, IdeaVim jako mezistanice, hybrid | ✅ |
+| B05 | [Refaktoring](B05-refaktoring.md) | žebřík LSP → textové nástroje, quickfix `:cfdo` | ✅ |
+| B06 | [Git jako GitLens](B06-git.md) | gitsigns + lazygit, hunk workflow, blame | ✅ |
+| B07+ | Workspace, Autocomplete, Debugging… | viz [ROADMAP](../ROADMAP.md) | 🔜 |
 
 Kompletní plán je v [ROADMAP.md](../ROADMAP.md).

@@ -1,4 +1,4 @@
-Cvičný soubor k lekci 07 — Makra. Obnova: git checkout -- 07-makra.txt
+Cvičný soubor k lekci A07 — Makra. Obnova: git checkout -- A07-makra.txt
 
 === STŘEDNÍKY NA KONEC ŘÁDKŮ ===
 prvni radek

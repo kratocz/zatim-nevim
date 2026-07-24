@@ -1,4 +1,4 @@
-# Lekce 00 — Nouzové přežití
+# A00 — Nouzové přežití
 
 Tahle lekce je pro člověka, který právě spustil vim a **neví, jak z něj ven**. Nic víc
 zatím neumíš a to je úplně v pořádku. Cíl: spustit, nezpanikařit, a hlavně bezpečně odejít.
@@ -16,7 +16,7 @@ Když napíšeš jen `vim` bez souboru, otevře se uvítací obrazovka — nevad
 
 Zmáčkneš písmena a vim dělá kraviny místo psaní? To proto, že vim startuje v **Normal
 módu**, kde klávesy nejsou text, ale **příkazy**. To je celé kouzlo vim a probereme ho
-v [lekci 02](02-tri-rezimy.md). Zatím stačí vědět, že existuje záchranná klávesa:
+v [lekci A02](A02-tri-rezimy.md). Zatím stačí vědět, že existuje záchranná klávesa:
 
 > **`Esc`** = „vrať mě do klidu" (do Normal módu). Když nevíš, kde jsi, zmáčkni `Esc`.
 
@@ -42,4 +42,4 @@ ven odkudkoli, i když nevíš, co se děje.
 - [ ] Spusť znovu, zmáčkni `i`, napiš „ahoj", `Esc`, pak `:wq`. Soubor je uložený.
 
 ## Co dál
-[Lekce 01 — Přežití](01-preziti.md): osm základních věcí, se kterými něco vyeditáš.
+[Lekce A01 — Přežití](A01-preziti.md): osm základních věcí, se kterými něco vyeditáš.

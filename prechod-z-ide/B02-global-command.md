@@ -1,4 +1,4 @@
-# B2 — `:g` global command
+# B02 — `:g` global command
 
 Málo známá, ale jedna z nejmocnějších věcí ve vim: *„udělej příkaz na každém řádku, který
 (ne)obsahuje vzor."* Nahrazuje spoustu ruční práce i pluginů — a v IDE pro to často není
@@ -11,7 +11,7 @@ ani ekvivalent.
 ```
 
 - Výchozí rozsah je **celý soubor** (nemusíš psát `%`).
-- `vzor` je regex (vimácký — viz [lekce 06](../lekce/06-hledani-a-nahrazovani.md)).
+- `vzor` je regex (vimácký — viz [lekce A06](../lekce/A06-hledani-a-nahrazovani.md)).
 - `příkaz` je libovolný ex příkaz, který se spustí na každém odpovídajícím řádku.
 
 Opak — řádky, kde vzor **není**:
@@ -59,11 +59,11 @@ soubor jedním příkazem.
 ```
 
 ## Cvičení
-Otevři `../cviceni/global-command.txt`:
+Otevři `../cviceni/B02-global-command.txt`:
 - [ ] Smaž všechny prázdné řádky: `:g/^$/d`.
 - [ ] Posbírej všechny řádky s `TODO` na konec: `:g/TODO/m$`.
 - [ ] Přidej `;` na konec každého neprázdného řádku: `:g/./normal A;`.
 - [ ] Nech jen řádky obsahující `keep`: `:v/keep/d`.
 
 ## Co dál
-[B3 — Z VS Code do vim](03-vscode.md), nebo zpět na [index Tracku B](README.md).
+[B03 — Z VS Code do vim](B03-vscode.md), nebo zpět na [index Tracku B](README.md).

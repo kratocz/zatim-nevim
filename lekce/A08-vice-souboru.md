@@ -1,4 +1,4 @@
-# Lekce 08 — Více souborů: buffery, okna, taby
+# A08 — Více souborů: buffery, okna, taby
 
 Cíl: pracovat s víc soubory najednou — otevírat, přepínat, dělit obrazovku. vim tu má tři
 pojmy, které se pletou: **buffer** (otevřený soubor v paměti), **okno** (výřez na buffer)
@@ -56,4 +56,4 @@ přepínání souborů používej spíš buffery + Telescope.
 - [ ] V LazyVim zkus `Space Space` a otevři soubor fuzzy hledáním.
 
 ## Co dál
-[Lekce 09 — LazyVim navrch](09-lazyvim-navrch.md).
+[Lekce A09 — LazyVim navrch](A09-lazyvim-navrch.md).

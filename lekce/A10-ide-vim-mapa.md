@@ -1,4 +1,4 @@
-# Lekce 10 — IDE → vim mapa
+# A10 — IDE → vim mapa
 
 Referenční tahák pro přechod z IDE (VS Code, JetBrains…). Když víš, jak se něco jmenuje
 v IDE, tady najdeš vimácký ekvivalent. `Space` = LazyVim leader.
@@ -38,7 +38,7 @@ v IDE, tady najdeš vimácký ekvivalent. `Space` = LazyVim leader.
 | Comment line / selection | `gcc` / `gc` |
 | Rename symbol | `Space cr` |
 | Format document | `Space cf` |
-| Multi-cursor | `*` → `cgn` → `.` / `n` (viz [lekce 07](07-undo-opakovani-makra.md)) |
+| Multi-cursor | `*` → `cgn` → `.` / `n` (viz [lekce A07](A07-undo-opakovani-makra.md)) |
 
 ## Soubory a okna
 

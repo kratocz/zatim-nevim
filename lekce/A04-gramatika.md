@@ -1,4 +1,4 @@
-# Lekce 04 — Editační gramatika (srdce vim)
+# A04 — Editační gramatika (srdce vim)
 
 Tohle je nejdůležitější lekce celého kurzu. Když ti cvakne, vim se z „hromady zkratek"
 promění v **jazyk**, ve kterém si příkazy skládáš sám, aniž by ses je učil nazpaměť.
@@ -66,14 +66,14 @@ Když operátor napíšeš dvakrát, působí na **celý řádek**:
 ## Tečka `.` — opakuj poslední změnu
 
 `.` zopakuje tvou poslední editační změnu. Smažeš slovo přes `dw`, popojdeš, `.` smaže
-další. Tohle je jeden z nejsilnějších návyků ve vim — probereme ho víc v [lekci 07](07-undo-opakovani-makra.md).
+další. Tohle je jeden z nejsilnějších návyků ve vim — probereme ho víc v [lekci A07](A07-undo-opakovani-makra.md).
 
 ## Cvičení
-Otevři `../cviceni/04-gramatika.txt`:
+Otevři `../cviceni/A04-gramatika.txt`:
 - [ ] Přepiš slovo přes `ciw`, obsah závorek přes `ci(`, řetězec přes `ci"`.
 - [ ] Smaž až po znak přes `dt.` a `df.` (vnímej rozdíl `t` vs `f`).
 - [ ] Odsaď odstavec přes `>ip`.
 - [ ] Zopakuj poslední změnu jinde přes `.`.
 
 ## Co dál
-[Lekce 05 — Kopírování a registry](05-kopirovani-registry.md): kam se poděje to, co smažeš a zkopíruješ.
+[Lekce A05 — Kopírování a registry](A05-kopirovani-registry.md): kam se poděje to, co smažeš a zkopíruješ.

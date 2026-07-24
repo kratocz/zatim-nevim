@@ -1,5 +1,5 @@
-Cvičný soubor k lekci 06 — Hledání a nahrazování.
-Originál je v gitu, klidně ho rozsekej: obnovíš přes `git checkout -- 06-nahrazovani.txt`.
+Cvičný soubor k lekci A06 — Hledání a nahrazování.
+Originál je v gitu, klidně ho rozsekej: obnovíš přes `git checkout -- A06-nahrazovani.txt`.
 
 === HLEDÁNÍ ===
 Tady je foo. A o kus dál zase foo. A ještě jednou foo na konci.

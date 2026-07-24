@@ -1,4 +1,4 @@
-# Lekce 09 — LazyVim navrch
+# A09 — LazyVim navrch
 
 Cíl: využít [LazyVim](https://www.lazyvim.org/) — předpřipravenou konfiguraci neovim, která
 z něj dělá plnohodnotné IDE (LSP, fuzzy hledání, file tree, git). Tvoje editační gramatika
@@ -54,4 +54,4 @@ LazyVim má „Extras" — hotové balíčky. Spusť `:LazyExtras`, najeď na po
 - [ ] Nad nějakou funkcí zkus `K` (docs) a `gd` (definice), zpět přes `Ctrl-o`.
 
 ## Co dál
-[Lekce 10 — IDE → vim mapa](10-ide-vim-mapa.md): referenční tahák „co znám z IDE".
+[Lekce A10 — IDE → vim mapa](A10-ide-vim-mapa.md): referenční tahák „co znám z IDE".

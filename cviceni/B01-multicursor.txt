@@ -1,4 +1,4 @@
-Cvičný soubor k lekci B1 — Multi-cursor. Obnova: git checkout -- multicursor.txt
+Cvičný soubor k lekci B01 — Multi-cursor. Obnova: git checkout -- B01-multicursor.txt
 
 === PŘEJMENOVÁNÍ (cgn + .) ===
 foo prvni vyskyt

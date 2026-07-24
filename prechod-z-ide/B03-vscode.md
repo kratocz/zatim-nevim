@@ -1,8 +1,8 @@
-# B3 — Z VS Code do vim
+# B03 — Z VS Code do vim
 
 Pro lidi, co roky žijí ve VS Code a chtějí (aspoň zkusit) plný neovim s LazyVim. Cíl:
 přemapovat svalovou paměť, ne se učit „všechno znovu". Pokud zatím nechceš VS Code
-opouštět, začni [lekcí B0](00-vim-uvnitr-ide.md) — vim mód uvnitř VS Code.
+opouštět, začni [lekcí B00](B00-vim-uvnitr-ide.md) — vim mód uvnitř VS Code.
 
 > Zkratky uvádím v macOS podobě (`Cmd`); na Windows/Linuxu čti `Ctrl`.
 
@@ -12,7 +12,7 @@ opouštět, začni [lekcí B0](00-vim-uvnitr-ide.md) — vim mód uvnitř VS Cod
    zmáčkni `Space` a **čti** which-key nabídku. A `Space sk` je „paleta zkratek" —
    fuzzy hledání v klávesových mapách (nevíš-li, jak se něco dělá, najdeš to tam).
 2. **Taby → buffery.** VS Code taby = otevřené soubory. Ve vim jsou otevřené soubory
-   buffery (`Shift-h` / `Shift-l` přepíná) a taby jsou něco jiného ([lekce 08](../lekce/08-vice-souboru.md)).
+   buffery (`Shift-h` / `Shift-l` přepíná) a taby jsou něco jiného ([lekce A08](../lekce/A08-vice-souboru.md)).
 3. **settings.json → Lua; Marketplace → `:Lazy`.** Konfigurace jsou soubory v
    `~/.config/nvim/lua/`, pluginy spravuje `:Lazy`, kurátorované balíčky `:LazyExtras`.
 4. **Autosave není default.** Zvykni si na `:w` — ale dobrá zpráva: LazyVim má
@@ -37,7 +37,7 @@ opouštět, začni [lekcí B0](00-vim-uvnitr-ide.md) — vim mód uvnitř VS Cod
 ### Editace
 | VS Code | LazyVim |
 |---------|---------|
-| `Cmd+D` (další výskyt, multi-cursor) | `*` → `cgn` → `.` / `n` — viz [B1](01-multicursor.md) |
+| `Cmd+D` (další výskyt, multi-cursor) | `*` → `cgn` → `.` / `n` — viz [B01](B01-multicursor.md) |
 | `Cmd+/` (komentář) | `gcc`, ve Visualu `gc` |
 | `F2` (rename symbol) | `Space cr` |
 | `Cmd+.` (Quick Fix) | `Space ca` |
@@ -71,12 +71,12 @@ opouštět, začni [lekcí B0](00-vim-uvnitr-ide.md) — vim mód uvnitř VS Cod
 - **Odezvu a RAM** — start v milisekundách, žádný Electron.
 - **SSH bez mostu** — na serveru prostě spustíš `nvim`; žádný Remote-SSH, stejný editor
   všude (a vim gramatika funguje i v holém `vi` na jakémkoli stroji).
-- **Skládatelnost** — gramatika ([lekce 04](../lekce/04-gramatika.md)) × LSP × Telescope
+- **Skládatelnost** — gramatika ([lekce A04](../lekce/A04-gramatika.md)) × LSP × Telescope
   se navzájem násobí.
 
 ## Strategie přechodu (doporučené fáze)
 
-1. **VSCodeVim ve VS Code** ([B0](00-vim-uvnitr-ide.md)) + Track A lekce 02–07 — gramatika v bezpečí.
+1. **VSCodeVim ve VS Code** ([B00](B00-vim-uvnitr-ide.md)) + Track A lekce A02–A07 — gramatika v bezpečí.
 2. **LazyVim na nízkorizikové věci** — poznámky, configy, Markdown.
 3. **Projekty bez debuggeru** — zapni `:LazyExtras` pro svůj jazyk.
 4. **Full-time**, VS Code drž jako debugger, dokud nedáš nvim-dap.
@@ -85,8 +85,8 @@ opouštět, začni [lekcí B0](00-vim-uvnitr-ide.md) — vim mód uvnitř VS Cod
 - [ ] Otevři svůj reálný projekt: `Space Space` (soubor), `Space /` (grep), `gd` + `Ctrl-o`.
 - [ ] Přes `Space sk` najdi zkratku, kterou neznáš.
 - [ ] `Ctrl+/` terminál, `Space gg` lazygit.
-- [ ] Projeď find&replace flow: `:%s/x/y/gc` ([lekce 06](../lekce/06-hledani-a-nahrazovani.md)).
+- [ ] Projeď find&replace flow: `:%s/x/y/gc` ([lekce A06](../lekce/A06-hledani-a-nahrazovani.md)).
 
 ## Co dál
-[B4 — Z JetBrains do vim](04-jetbrains.md) pro kolegy z druhého tábora, nebo zpět na
+[B04 — Z JetBrains do vim](B04-jetbrains.md) pro kolegy z druhého tábora, nebo zpět na
 [index Tracku B](README.md).

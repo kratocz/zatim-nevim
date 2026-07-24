@@ -1,4 +1,4 @@
-# Lekce 05 — Kopírování, vkládání a registry
+# A05 — Kopírování, vkládání a registry
 
 Cíl: pochopit, kam vim odkládá text, který smažeš nebo zkopíruješ — a jak ho vložit,
 včetně systémové schránky (clipboard) sdílené s ostatními aplikacemi.
@@ -50,11 +50,11 @@ si přitom vymění registr za přepsaný text; novější neovim má na to `P`,
 zachová — takže ve Visualu si zvykni na **`P`**.
 
 ## Cvičení
-Otevři `../cviceni/05-registry.txt`:
+Otevři `../cviceni/A05-registry.txt`:
 - [ ] Přesuň řádek přes `dd` + `p`.
 - [ ] Duplikuj řádek přes `yy` + `p`.
 - [ ] Zkopíruj slovo do registru `a` (`"ayiw`) a vlož ho jinam (`"ap`).
 - [ ] Zkopíruj řádek do systémové schránky (`"+yy`) a vlož ho mimo vim (třeba do prohlížeče).
 
 ## Co dál
-[Lekce 06 — Hledání a nahrazování](06-hledani-a-nahrazovani.md).
+[Lekce A06 — Hledání a nahrazování](A06-hledani-a-nahrazovani.md).

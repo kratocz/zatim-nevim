@@ -1,4 +1,4 @@
-# B6 — Git jako GitLens
+# B06 — Git jako GitLens
 
 V IDE máš Source Control panel, gutter značky změn a GitLens blame. LazyVim to skládá ze
 dvou vrstev: **gitsigns** (v bufferu — značky a práce s hunky, jako gutter v IDE) a
@@ -68,5 +68,5 @@ V libovolném repu (klidně v tomhle):
 - [ ] `Space gB` — otevři aktuální soubor na GitHubu.
 
 ## Co dál
-Zpět na [index Tracku B](README.md); podle [ROADMAP](../ROADMAP.md) následuje B7
-(Multi-file & workspace) a B8 (Autocomplete & snippety).
+Zpět na [index Tracku B](README.md); podle [ROADMAP](../ROADMAP.md) následuje B07
+(Multi-file & workspace) a B08 (Autocomplete & snippety).

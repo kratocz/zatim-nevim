@@ -1,4 +1,4 @@
-# B5 — Refaktoring
+# B05 — Refaktoring
 
 V IDE je refaktoring menu plné kouzel (Rename, Extract, Inline, Change Signature…).
 Ve vim světě stojí na dvou nohách: **sémantické** operace přes LSP (záleží na language
@@ -11,8 +11,8 @@ Odshora dolů — začni nejsémantičtějším nástrojem, spadni níž, jen kd
 
 1. **LSP rename / code action** — chápe kód, přejmenuje napříč projektem.
 2. **Projektový textový find&replace** — `Space sr` (grug-far) nebo quickfix + `:cfdo`.
-3. **`:%s` v souboru** s hranicemi slova (`\<…\>`) — [lekce 06](../lekce/06-hledani-a-nahrazovani.md).
-4. **`cgn` + `.`** — interaktivní bodové přejmenování — [B1](01-multicursor.md).
+3. **`:%s` v souboru** s hranicemi slova (`\<…\>`) — [lekce A06](../lekce/A06-hledani-a-nahrazovani.md).
+4. **`cgn` + `.`** — interaktivní bodové přejmenování — [B01](B01-multicursor.md).
 
 ## Sémantická vrstva (LSP)
 
@@ -37,8 +37,8 @@ jdtls (Java: extract method/variable/constant) umí hodně; jinde míň. Prostě
 Tohle v IDE nemáš a je to půlka síly:
 
 - **`cgn` + `.`** — přejmenuj výskyty postupně s rozhodováním u každého.
-- **`:g/vzor/normal …`** — strukturální dávková změna ([B2](02-global-command.md)).
-- **Makro** — vícekroková přestavba nahraná jednou, přehraná stokrát ([lekce 07](../lekce/07-undo-opakovani-makra.md)).
+- **`:g/vzor/normal …`** — strukturální dávková změna ([B02](B02-global-command.md)).
+- **Makro** — vícekroková přestavba nahraná jednou, přehraná stokrát ([lekce A07](../lekce/A07-undo-opakovani-makra.md)).
 - **`Ctrl-Space`** (Treesitter extend selection) — přesně uchop uzel (výraz → příkaz →
   blok → funkce) a pak na něj pusť operátor.
 
@@ -53,7 +53,7 @@ Ctrl-q   →  pošli výsledky do quickfix listu
 ```
 
 `cfdo` projede každý soubor z quickfixu, `c` flag se ptá u každého výskytu (tvoje
-Replace/Skip/All tlačítka z [lekce 06](../lekce/06-hledani-a-nahrazovani.md)), `update`
+Replace/Skip/All tlačítka z [lekce A06](../lekce/A06-hledani-a-nahrazovani.md)), `update`
 uloží změněné. Bez `c` je to tichý „Replace All" napříč projektem.
 
 ## Po refaktoringu: úklid diagnostiky
@@ -65,7 +65,7 @@ ekvivalent Problems panelu. Projeď, oprav, hotovo.
 
 - **Change Signature, Move class/package, Extract Interface** — tady JetBrains se svým
   sémantickým indexem vede a LSP standard ekvivalent nemá. Pro Javu/Kotlin s těžkou
-  přestavbou platí hybrid z [B4](04-jetbrains.md): udělej to v IDEA (klidně s IdeaVim).
+  přestavbou platí hybrid z [B04](B04-jetbrains.md): udělej to v IDEA (klidně s IdeaVim).
 - Kvalita `Space ca` = kvalita language serveru. TypeScript/Rust rozmazlují, jinde střídmě.
 
 ## Cvičení
@@ -75,4 +75,4 @@ ekvivalent Problems panelu. Projeď, oprav, hotovo.
 - [ ] Před smazáním funkce si zvykni na reflex `gr`.
 
 ## Co dál
-[B6 — Git jako GitLens](06-git.md).
+[B06 — Git jako GitLens](B06-git.md).

@@ -11,42 +11,42 @@ Lineární výuka od „umím jen spustit vim" po plynulé ovládání.
 
 | # | Lekce | Stav |
 |---|-------|------|
-| 00 | [Nouzové přežití](lekce/00-nouzove-preziti.md) | ✅ |
-| 01 | [Přežití](lekce/01-preziti.md) | ✅ |
-| 02 | [Tři režimy pořádně](lekce/02-tri-rezimy.md) | ✅ |
-| 03 | [Pohyb](lekce/03-pohyb.md) | ✅ |
-| 04 | [Editační gramatika](lekce/04-gramatika.md) | ✅ |
-| 05 | [Kopírování a registry](lekce/05-kopirovani-registry.md) | ✅ |
-| 06 | [Hledání a nahrazování](lekce/06-hledani-a-nahrazovani.md) | ✅ |
-| 07 | [Undo, opakování, makra](lekce/07-undo-opakovani-makra.md) | ✅ |
-| 08 | [Více souborů](lekce/08-vice-souboru.md) | ✅ |
-| 09 | [LazyVim navrch](lekce/09-lazyvim-navrch.md) | ✅ |
-| 10 | [IDE → vim mapa](lekce/10-ide-vim-mapa.md) | ✅ |
+| A00 | [Nouzové přežití](lekce/A00-nouzove-preziti.md) | ✅ |
+| A01 | [Přežití](lekce/A01-preziti.md) | ✅ |
+| A02 | [Tři režimy pořádně](lekce/A02-tri-rezimy.md) | ✅ |
+| A03 | [Pohyb](lekce/A03-pohyb.md) | ✅ |
+| A04 | [Editační gramatika](lekce/A04-gramatika.md) | ✅ |
+| A05 | [Kopírování a registry](lekce/A05-kopirovani-registry.md) | ✅ |
+| A06 | [Hledání a nahrazování](lekce/A06-hledani-a-nahrazovani.md) | ✅ |
+| A07 | [Undo, opakování, makra](lekce/A07-undo-opakovani-makra.md) | ✅ |
+| A08 | [Více souborů](lekce/A08-vice-souboru.md) | ✅ |
+| A09 | [LazyVim navrch](lekce/A09-lazyvim-navrch.md) | ✅ |
+| A10 | [IDE → vim mapa](lekce/A10-ide-vim-mapa.md) | ✅ |
 
 ## Track B — Přechod z IDE 🚧
 
 Pro lidi přicházející z VS Code nebo JetBrains. Goal-oriented: každá lekce odpovídá na
 reálný dotaz typu *„jak ve vim udělám to, co v IDE dělám takhle"*. Rozšíření populární
-lekce 10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
+lekce A10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 
 | # | Lekce | O čem | Stav |
 |---|-------|-------|------|
-| B0 | [vim *uvnitř* tvého IDE](prechod-z-ide/00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — uč se gramatiku bez opuštění známého prostředí | ✅ |
-| B1 | [Multi-cursor po vimácku](prechod-z-ide/01-multicursor.md) | `Cmd+D` → `cgn`+`.`, visual-block `Ctrl-v`, makra, `:g/…/normal` | ✅ |
-| B2 | [`:g` global command](prechod-z-ide/02-global-command.md) | dávková editace — „udělej X na každém řádku, kde je Y" | ✅ |
-| B3 | [Z VS Code do vim](prechod-z-ide/03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
-| B4 | [Z JetBrains do vim](prechod-z-ide/04-jetbrains.md) | mapování akcí (Alt+Enter…), IdeaVim jako mezistanice, hybrid | ✅ |
-| B5 | [Refaktoring](prechod-z-ide/05-refaktoring.md) | žebřík: LSP rename/actions → quickfix `:cfdo` → `cgn`; poctivé limity | ✅ |
-| B6 | [Git jako GitLens](prechod-z-ide/06-git.md) | gitsigns (hunky, blame) + lazygit za 60 s + workflow bez opuštění editoru | ✅ |
-| B7 | Multi-file & workspace | goto file/symbol, splity, file tree, jump list | 🔜 |
-| B8 | Autocomplete & snippety | IntelliSense → nvim-cmp / blink | 🔜 |
-| B9 | Debugging | breakpointy, step → nvim-dap | 🔜 |
+| B00 | [vim *uvnitř* tvého IDE](prechod-z-ide/B00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — uč se gramatiku bez opuštění známého prostředí | ✅ |
+| B01 | [Multi-cursor po vimácku](prechod-z-ide/B01-multicursor.md) | `Cmd+D` → `cgn`+`.`, visual-block `Ctrl-v`, makra, `:g/…/normal` | ✅ |
+| B02 | [`:g` global command](prechod-z-ide/B02-global-command.md) | dávková editace — „udělej X na každém řádku, kde je Y" | ✅ |
+| B03 | [Z VS Code do vim](prechod-z-ide/B03-vscode.md) | mentální posuny, mapa zkratek, strategie přechodu | ✅ |
+| B04 | [Z JetBrains do vim](prechod-z-ide/B04-jetbrains.md) | mapování akcí (Alt+Enter…), IdeaVim jako mezistanice, hybrid | ✅ |
+| B05 | [Refaktoring](prechod-z-ide/B05-refaktoring.md) | žebřík: LSP rename/actions → quickfix `:cfdo` → `cgn`; poctivé limity | ✅ |
+| B06 | [Git jako GitLens](prechod-z-ide/B06-git.md) | gitsigns (hunky, blame) + lazygit za 60 s + workflow bez opuštění editoru | ✅ |
+| B07 | Multi-file & workspace | goto file/symbol, splity, file tree, jump list | 🔜 |
+| B08 | Autocomplete & snippety | IntelliSense → nvim-cmp / blink | 🔜 |
+| B09 | Debugging | breakpointy, step → nvim-dap | 🔜 |
 
-**Hotovo:** B0–B6. **Nejbližší na řadě:** B7 (Multi-file & workspace), B8 (Autocomplete & snippety).
+**Hotovo:** B00–B06. **Nejbližší na řadě:** B07 (Multi-file & workspace), B08 (Autocomplete & snippety).
 
 ## Track C — Recepty 🔜
 
-Task taháky ve stylu lekce 10, ale čistě editační. „Chci udělat X → napiš Y."
+Task taháky ve stylu lekce A10, ale čistě editační. „Chci udělat X → napiš Y."
 
 | Lekce | O čem | Stav |
 |-------|-------|------|

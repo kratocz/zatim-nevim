@@ -1,4 +1,4 @@
-Cvičný soubor k lekci B2 — :g global command. Obnova: git checkout -- global-command.txt
+Cvičný soubor k lekci B02 — :g global command. Obnova: git checkout -- B02-global-command.txt
 
 === SMAZAT PRÁZDNÉ ŘÁDKY (:g/^$/d) ===
 řádek jedna

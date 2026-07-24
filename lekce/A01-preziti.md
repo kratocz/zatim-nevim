@@ -1,4 +1,4 @@
-# Lekce 01 — Přežití
+# A01 — Přežití
 
 Cíl: umět otevřít soubor, něco v něm změnit, uložit a zavřít — a nezaseknout se.
 Nic víc zatím neřeš. Tohle je minimum, se kterým přežiješ jakýkoli vim na jakémkoli serveru.
@@ -24,9 +24,9 @@ vimtutor
 ## Cvičení
 Otevři cvičný soubor a zkus na něm všech osm věcí:
 ```bash
-nvim ../cviceni/01-preziti.txt
+nvim ../cviceni/A01-preziti.txt
 ```
-(nebo přes svůj alias: `nevim ../cviceni/01-preziti.txt` 😄)
+(nebo přes svůj alias: `nevim ../cviceni/A01-preziti.txt` 😄)
 
 - [ ] Přesuň se po souboru jen pomocí `h j k l` (bez šipek).
 - [ ] Vstup do psaní přes `i`, napiš větu, `Esc`.
@@ -35,4 +35,4 @@ nvim ../cviceni/01-preziti.txt
 - [ ] Ulož (`:w`) a zavři (`:q`).
 
 ## Co dál
-Až tohle půjde bez přemýšlení → [lekce 02 — Tři režimy pořádně](02-tri-rezimy.md).
+Až tohle půjde bez přemýšlení → [lekce A02 — Tři režimy pořádně](A02-tri-rezimy.md).

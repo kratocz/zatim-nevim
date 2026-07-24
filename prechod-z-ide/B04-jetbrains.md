@@ -1,4 +1,4 @@
-# B4 — Z JetBrains do vim (IntelliJ, PyCharm, WebStorm…)
+# B04 — Z JetBrains do vim (IntelliJ, PyCharm, WebStorm…)
 
 JetBrains člověk nemyslí ve zkratkách, ale v **akcích**: Search Everywhere, Alt+Enter,
 Rename, Extend Selection. Proto tuhle lekci vedu přes akce — u každé najdeš LazyVim
@@ -9,7 +9,7 @@ věnuju mu vlastní sekci: pro spoustu lidí je to nejdelší, klidně trvalá m
 
 ## IdeaVim — plnohodnotná mezistanice
 
-Instalaci řeší [lekce B0](00-vim-uvnitr-ide.md). Tady power tipy do `~/.ideavimrc`, které
+Instalaci řeší [lekce B00](B00-vim-uvnitr-ide.md). Tady power tipy do `~/.ideavimrc`, které
 z IdeaVim udělají víc než emulaci:
 
 ```vim
@@ -52,7 +52,7 @@ sethandler <C-d> a:vim                   " konflikt Ctrl kláves: kdo klávesu d
 | Duplicate Line (`Cmd+D` — pozor, ve VS Code je to multi-cursor!) | `yyp` |
 | Delete Line (`Cmd+Backspace`) | `dd` |
 | Move Line (`Alt+Shift+↑/↓`) | `Alt-k` / `Alt-j` |
-| Add Selection for Next Occurrence (`Ctrl+G`, win `Alt+J`) | `*` → `cgn` → `.` / `n` — viz [B1](01-multicursor.md) |
+| Add Selection for Next Occurrence (`Ctrl+G`, win `Alt+J`) | `*` → `cgn` → `.` / `n` — viz [B01](B01-multicursor.md) |
 
 ### Okolí
 | Akce (zkratka) | LazyVim |
@@ -84,4 +84,4 @@ editor na serveru přes ssh a gramatiku, která funguje všude.
 - [ ] Vyzkoušej `Ctrl-Space` / `Backspace` (extend/shrink selection) na reálném kódu.
 
 ## Co dál
-[B5 — Refaktoring](05-refaktoring.md), nebo zpět na [index Tracku B](README.md).
+[B05 — Refaktoring](B05-refaktoring.md), nebo zpět na [index Tracku B](README.md).

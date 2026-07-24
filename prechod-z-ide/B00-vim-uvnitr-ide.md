@@ -1,4 +1,4 @@
-# B0 — vim *uvnitř* tvého IDE
+# B00 — vim *uvnitř* tvého IDE
 
 Nejsmířlivější způsob, jak začít: **nemusíš nikam utíkat.** Zapneš si vim ovládání přímo
 ve VS Code nebo v JetBrains a učíš se gramatiku v prostředí, které už znáš — s debuggerem,
@@ -7,7 +7,7 @@ refaktoringem a vším pohodlím IDE po ruce. Editaci děláš vimácky, zbytek 
 ## Proč začít právě takhle
 
 - **Nízká bariéra** — neřešíš instalaci a konfiguraci celého neovim naráz.
-- **Učíš to důležité** — 90 % zisku z vim je editační gramatika (Track A, lekce 02–07),
+- **Učíš to důležité** — 90 % zisku z vim je editační gramatika (Track A, lekce A02–A07),
   a ta funguje i v emulaci uvnitř IDE.
 - **Nic neztrácíš** — IDE zkratky, které máš rád, zůstávají; vim je jen navrch.
 
@@ -64,7 +64,7 @@ a **vim** na samotnou editaci textu. Nemusíš být purista — hybrid je legiti
 ## Cvičení
 - [ ] Nainstaluj VSCodeVim nebo IdeaVim a namapuj si `jk` na `Esc`.
 - [ ] Zapni `relativenumber` a zkus pohyby `5j`, `3k`.
-- [ ] Projdi si na reálném souboru gramatiku z [lekce 04](../lekce/04-gramatika.md) — `ciw`, `di(`, `>ip` — rovnou v IDE.
+- [ ] Projdi si na reálném souboru gramatiku z [lekce A04](../lekce/A04-gramatika.md) — `ciw`, `di(`, `>ip` — rovnou v IDE.
 
 ## Co dál
-[B1 — Multi-cursor po vimácku](01-multicursor.md): jak nahradit `Cmd+D`.
+[B01 — Multi-cursor po vimácku](B01-multicursor.md): jak nahradit `Cmd+D`.
