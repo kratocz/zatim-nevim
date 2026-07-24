@@ -58,7 +58,7 @@ sethandler <C-d> a:vim                   " konflikt Ctrl kláves: kdo klávesu d
 | Akce (zkratka) | LazyVim |
 |----------------|---------|
 | Commit (`Cmd+K`) / Git tool window (`Cmd+9`) | `Space gg` (lazygit); hunky `]h` / `[h` |
-| Bookmarks (`F3`) | marks: `ma` nastaví, `` `a `` skočí (lekce v Tracku C 🔜) |
+| Bookmarks (`F3`) | marks: `ma` nastaví, `` `a `` skočí — [recept Marks & jumpy](../recepty/marks-a-jumpy.md) |
 | Terminál (`Alt+F12`) | `Ctrl+/` |
 | Run / Debug | nvim-dap (Extras) — viz „poctivě" níže |
 

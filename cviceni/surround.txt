@@ -1,0 +1,7 @@
+Cvičný soubor k receptu Surround. Obnova: git checkout -- surround.txt
+
+1) Obal slovo AHOJ do uvozovek: kurzor na něj, gsaiw"
+2) Tady uvozovky smaž: "smazat"
+3) Změň dvojité na jednoduché: "vyměnit"
+4) Změň kulaté na hranaté: (obsah)
+5) Označ celý tenhle řádek přes V a obal ho tagem p přes gsat.

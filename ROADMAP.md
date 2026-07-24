@@ -44,18 +44,20 @@ lekce A10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 
 **Track B je kompletní** (B00–B09).
 
-## Track C — Recepty 🔜
+## Track C — Recepty 🚧
 
-Task taháky ve stylu lekce A10, ale čistě editační. „Chci udělat X → napiš Y."
+Nelineární task taháky ve stylu [A10](lekce/A10-ide-vim-mapa.md): „chci udělat X → tady
+je jak". Záměrně **bez číslování** — pořadí drží [index v `recepty/`](recepty/README.md),
+soubory se jmenují podle tématu.
 
-| Lekce | O čem | Stav |
-|-------|-------|------|
-| Surround | `ys` / `cs` / `ds` — obalování do závorek, uvozovek, tagů | 🔜 |
+| Recept | O čem | Stav |
+|--------|-------|------|
+| [Surround](recepty/surround.md) | obalování: LazyVim `gsa`/`gsd`/`gsr`, klasika `ys`/`cs`/`ds` | ✅ |
+| [Marks, skoky a Flash](recepty/marks-a-jumpy.md) | záložky `mA`, historie skoků, bleskový pohyb | ✅ |
+| [Markdown v neovim](recepty/markdown-v-neovim.md) | inline rendering, tabulky, náhled | ✅ |
 | Ex příkazy & rozsahy | `:m` (move), `:t` (copy), `:normal`, `:%!sort` — vim jako dávkový editor | 🔜 |
-| Marks & jumpy | `ma`, `` `a ``, `Ctrl-o/i` — navigace ve velkém souboru | 🔜 |
 | Makra do hloubky | praktické recepty, rekurzivní makra | 🔜 |
 | 50 nejčastějších úkonů | velký task tahák | 🔜 |
-| Markdown v neovim | render-markdown + tabulky, `:LazyExtras lang.markdown` | 🔜 |
 | Konfigurace LazyVim | přidat plugin, keymapu, option | 🔜 |
 | Nerd Fonts & terminál v nvim | okolní setup, `:terminal` / `Ctrl-/` | 🔜 |
 

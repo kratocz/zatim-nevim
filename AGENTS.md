@@ -17,6 +17,7 @@ is a Czech pun on *„I don't know yet"* with *vim* hidden inside.
 - `cheatsheet.md` — gramatika vim (módy, operátory, pohyby, text objekty, dávkové triky).
 - `lekce/Ann-nazev.md` — Track A: lineární kurz od nuly (`A00`–`A10`).
 - `prechod-z-ide/Bnn-nazev.md` — Track B: goal-oriented lekce pro lidi z VS Code / JetBrains (má vlastní README s indexem).
+- `recepty/nazev.md` — Track C: nelineární recepty („chci X → jak na to"), záměrně bez číslování (má vlastní README s indexem).
 - `cviceni/*.txt` — cvičné soubory k procvičování zásahů (bezpečné hřiště).
 
 ## Setup / build / test

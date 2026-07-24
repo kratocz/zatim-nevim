@@ -103,5 +103,19 @@ Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na 
 - [ ] Zapnout `dap.core` + jazykový Extra
 - [ ] `Space db` / `dc` / `dO` / `du` / `dw` na malém skriptu
 
+---
+
+## Track C — [Recepty](recepty/README.md)
+
+### [Surround](recepty/surround.md)
+- [ ] `gsaiw"`, `gsd"`, `gsr"'` (LazyVim) / `ysiw"`, `ds"`, `cs"'` (klasika)
+
+### [Marks, skoky a Flash](recepty/marks-a-jumpy.md)
+- [ ] Globální marky `mA`/`mB` napříč soubory, picker `Space sm`
+- [ ] Flash: `s` + dva znaky cíle
+
+### [Markdown v neovim](recepty/markdown-v-neovim.md)
+- [ ] Zapnout `lang.markdown`, prohlédnout cheatsheet, `Space ss` osnova
+
 ## Poznámky
 <!-- Sem si píšu, co mi nešlo, co mi cvaklo, na co se zeptat příště. -->
