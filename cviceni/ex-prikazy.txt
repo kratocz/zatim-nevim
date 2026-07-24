@@ -1,0 +1,26 @@
+Cvičný soubor k receptu Ex příkazy. Obnova: git checkout -- ex-prikazy.txt
+
+=== SORT: označ V a :'<,'>sort u ===
+jablko
+hruška
+banán
+jablko
+meruňka
+banán
+
+=== ALIGN: označ V a :'<,'>!column -t ===
+jméno město věk
+Petr Brno 42
+Jan Praha 37
+Eva Ostrava 29
+
+=== MOVE/COPY: zduplikuj první řádek (:t.), přesuň druhý na konec sekce (:m+2) ===
+tenhle řádek zduplikuj
+tenhle přesuň dolů
+třetí řádek
+čtvrtý řádek
+
+=== NORMAL: označ V a :'<,'>normal A; ===
+let a = 1
+let b = 2
+let c = 3

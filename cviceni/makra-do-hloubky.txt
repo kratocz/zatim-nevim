@@ -1,0 +1,22 @@
+Cvičný soubor k receptu Makra do hloubky. Obnova: git checkout -- makra-do-hloubky.txt
+
+=== ÚKOL 1: obal každý řádek do uvozovek + čárka ("alfa",) ===
+Nahraj: qa 0 i" Esc A", Esc j0 q — pak označ zbytek V a :'<,'>normal @a
+alfa
+beta
+gama
+delta
+epsilon
+
+=== ÚKOL 2: totéž rekurzivně ===
+qaq (vyčistit!), pak qa … j0 @a q — a nech doběhnout:
+jedna
+dva
+tři
+čtyři
+
+=== ÚKOL 3: oprav makro bez přenahrávání ===
+Vlož makro z úkolu 1 jako text ("ap), změň " na ' , yankni zpět (0"ay$)
+a spusť na těchto řádcích:
+lorem
+ipsum

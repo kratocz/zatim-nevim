@@ -117,5 +117,23 @@ Kde jsem na cestě za vim. Odškrtávám, jak jdu. Každá položka odkazuje na 
 ### [Markdown v neovim](recepty/markdown-v-neovim.md)
 - [ ] Zapnout `lang.markdown`, prohlédnout cheatsheet, `Space ss` osnova
 
+### [Ex příkazy a rozsahy](recepty/ex-prikazy.md)
+- [ ] `:t.` / `:m$`, `:'<,'>sort u`
+- [ ] Filtr `:'<,'>!column -t`, `:'<,'>normal A;`
+
+### [Makra do hloubky](recepty/makra-do-hloubky.md)
+- [ ] Makro na výběr přes `:'<,'>normal @a`
+- [ ] Oprava makra jako textu (`"ap` → edit → `0"ay$`)
+- [ ] Rekurzivní makro (`qaq` → `qa … @a q`)
+
+### [50 nejčastějších úkonů](recepty/50-ukonu.md)
+- [ ] Projít tahák; označit si, co ještě nemám v prstech
+
+### [Konfigurace LazyVim](recepty/konfigurace-lazyvim.md)
+- [ ] Vlastní keymapa s `desc`, plugin přes spec, oprava `opts`
+
+### [Nerd Fonts a terminál](recepty/nerd-fonts-a-terminal.md)
+- [ ] Nerd Font v terminálu, `:checkhealth` čistý, `Ctrl+/` smyčka
+
 ## Poznámky
 <!-- Sem si píšu, co mi nešlo, co mi cvaklo, na co se zeptat příště. -->

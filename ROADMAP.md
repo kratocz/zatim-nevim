@@ -44,7 +44,7 @@ lekce A10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 
 **Track B je kompletní** (B00–B09).
 
-## Track C — Recepty 🚧
+## Track C — Recepty ✅
 
 Nelineární task taháky ve stylu [A10](lekce/A10-ide-vim-mapa.md): „chci udělat X → tady
 je jak". Záměrně **bez číslování** — pořadí drží [index v `recepty/`](recepty/README.md),
@@ -55,11 +55,14 @@ soubory se jmenují podle tématu.
 | [Surround](recepty/surround.md) | obalování: LazyVim `gsa`/`gsd`/`gsr`, klasika `ys`/`cs`/`ds` | ✅ |
 | [Marks, skoky a Flash](recepty/marks-a-jumpy.md) | záložky `mA`, historie skoků, bleskový pohyb | ✅ |
 | [Markdown v neovim](recepty/markdown-v-neovim.md) | inline rendering, tabulky, náhled | ✅ |
-| Ex příkazy & rozsahy | `:m` (move), `:t` (copy), `:normal`, `:%!sort` — vim jako dávkový editor | 🔜 |
-| Makra do hloubky | praktické recepty, rekurzivní makra | 🔜 |
-| 50 nejčastějších úkonů | velký task tahák | 🔜 |
-| Konfigurace LazyVim | přidat plugin, keymapu, option | 🔜 |
-| Nerd Fonts & terminál v nvim | okolní setup, `:terminal` / `Ctrl-/` | 🔜 |
+| [Ex příkazy a rozsahy](recepty/ex-prikazy.md) | `:m`, `:t`, `:sort`, `:normal`, filtry `:%!` — vim jako dávkový editor | ✅ |
+| [Makra do hloubky](recepty/makra-do-hloubky.md) | robustní makra, oprava bez přenahrávání, rekurze | ✅ |
+| [50 nejčastějších úkonů](recepty/50-ukonu.md) | velký task tahák | ✅ |
+| [Konfigurace LazyVim](recepty/konfigurace-lazyvim.md) | option, keymapa, plugin | ✅ |
+| [Nerd Fonts a terminál](recepty/nerd-fonts-a-terminal.md) | ikony, true color, `:terminal` / `Ctrl-/` | ✅ |
+
+Všechny plánované recepty jsou hotové; další přibývají podle potřeby (index v
+[`recepty/`](recepty/README.md)).
 
 ## Jak to roste
 
