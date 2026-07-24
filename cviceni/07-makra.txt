@@ -1,0 +1,18 @@
+Cvičný soubor k lekci 07 — Makra. Obnova: git checkout -- 07-makra.txt
+
+=== STŘEDNÍKY NA KONEC ŘÁDKŮ ===
+prvni radek
+druhy radek
+treti radek
+ctvrty radek
+paty radek
+sesty radek
+Přidej na konec každého středník. Ruční cesta: A;Esc pak j.  j.  j. …
+Makro: qa  A;Esc  j  q   a pak 5@a
+
+=== PŘEJMENOVÁNÍ VÝSKYTŮ ===
+foo prvni
+neco foo tady
+uplne jine
+foo potreti
+Přejmenuj foo na bar: kurzor na foo, *, cgn bar Esc, pak . (změň) nebo n (přeskoč).

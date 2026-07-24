@@ -14,6 +14,24 @@ Nejsou to oficiální lekce, je to zápisník, který roste s tím, jak se učí
 - **[lekce/](lekce/)** — postupné lekce od přežití k plynulosti.
 - **[cviceni/](cviceni/)** — konkrétní soubory k procvičování zásahů.
 
+## Lekce
+
+Kurz začíná úplně od nuly — předpokládá jen to, že umíš spustit vim.
+
+| # | Lekce | O čem |
+|---|-------|-------|
+| 00 | [Nouzové přežití](lekce/00-nouzove-preziti.md) | spustit a **hlavně ukončit** vim |
+| 01 | [Přežití](lekce/01-preziti.md) | osm základních věcí |
+| 02 | [Tři režimy pořádně](lekce/02-tri-rezimy.md) | Normal / Insert / Visual |
+| 03 | [Pohyb](lekce/03-pohyb.md) | dostat se kamkoli bez šipek |
+| 04 | [Editační gramatika](lekce/04-gramatika.md) | `operátor + pohyb` — srdce vim |
+| 05 | [Kopírování a registry](lekce/05-kopirovani-registry.md) | yank, put, clipboard |
+| 06 | [Hledání a nahrazování](lekce/06-hledani-a-nahrazovani.md) | `:s`, rozsahy, confirm |
+| 07 | [Undo, opakování, makra](lekce/07-undo-opakovani-makra.md) | `.`, makra, `cgn` |
+| 08 | [Více souborů](lekce/08-vice-souboru.md) | buffery, splity, taby |
+| 09 | [LazyVim navrch](lekce/09-lazyvim-navrch.md) | leader, LSP, Telescope |
+| 10 | [IDE → vim mapa](lekce/10-ide-vim-mapa.md) | referenční tahák z IDE |
+
 ## Mentální model v jedné větě
 
 Vim není editor s divnými zkratkami — je to **malý jazyk**, kde skládáš věty
