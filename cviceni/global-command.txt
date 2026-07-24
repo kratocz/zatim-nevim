@@ -1,0 +1,28 @@
+Cvičný soubor k lekci B2 — :g global command. Obnova: git checkout -- global-command.txt
+
+=== SMAZAT PRÁZDNÉ ŘÁDKY (:g/^$/d) ===
+řádek jedna
+
+řádek dva
+
+
+řádek tři
+
+=== POSBÍRAT TODO NA KONEC (:g/TODO/m$) ===
+běžný řádek
+TODO umýt nádobí
+další běžný řádek
+TODO zalít kytky
+zase běžný řádek
+TODO dopsat lekci
+
+=== STŘEDNÍK NA KONEC NEPRÁZDNÝCH (:g/./normal A;) ===
+alfa
+beta
+gama
+
+=== NECHAT JEN ŘÁDKY S 'keep' (:v/keep/d) ===
+tenhle keep zůstane
+tenhle zmizí
+další keep zůstane
+a tenhle taky zmizí

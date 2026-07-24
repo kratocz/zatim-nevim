@@ -23,17 +23,17 @@ Lineární výuka od „umím jen spustit vim" po plynulé ovládání.
 | 09 | [LazyVim navrch](lekce/09-lazyvim-navrch.md) | ✅ |
 | 10 | [IDE → vim mapa](lekce/10-ide-vim-mapa.md) | ✅ |
 
-## Track B — Přechod z IDE 🔜
+## Track B — Přechod z IDE 🚧
 
 Pro lidi přicházející z VS Code nebo JetBrains. Goal-oriented: každá lekce odpovídá na
 reálný dotaz typu *„jak ve vim udělám to, co v IDE dělám takhle"*. Rozšíření populární
-lekce 10 do samostatné kapitoly (`prechod-z-ide/`).
+lekce 10 do samostatné kapitoly ([`prechod-z-ide/`](prechod-z-ide/)).
 
 | # | Lekce | O čem | Stav |
 |---|-------|-------|------|
-| B0 | vim *uvnitř* tvého IDE | VSCodeVim / IdeaVim — uč se gramatiku bez opuštění známého prostředí | 🔜 |
-| B1 | Multi-cursor po vimácku | `Cmd+D` → `cgn`+`.`, visual-block `Ctrl-v`, makra, `:g/…/normal` | 🔜 |
-| B2 | `:g` global command | dávková editace — „udělej X na každém řádku, kde je Y" | 🔜 |
+| B0 | [vim *uvnitř* tvého IDE](prechod-z-ide/00-vim-uvnitr-ide.md) | VSCodeVim / IdeaVim — uč se gramatiku bez opuštění známého prostředí | ✅ |
+| B1 | [Multi-cursor po vimácku](prechod-z-ide/01-multicursor.md) | `Cmd+D` → `cgn`+`.`, visual-block `Ctrl-v`, makra, `:g/…/normal` | ✅ |
+| B2 | [`:g` global command](prechod-z-ide/02-global-command.md) | dávková editace — „udělej X na každém řádku, kde je Y" | ✅ |
 | B3 | VS Code → vim | mentální model, mapování zkratek, kdy co | 🔜 |
 | B4 | JetBrains → vim | jiný svět zkratek než VS Code, vlastní lekce | 🔜 |
 | B5 | Refaktoring | rename, extract, organize imports → LSP code actions | 🔜 |
@@ -42,7 +42,7 @@ lekce 10 do samostatné kapitoly (`prechod-z-ide/`).
 | B8 | Autocomplete & snippety | IntelliSense → nvim-cmp / blink | 🔜 |
 | B9 | Debugging | breakpointy, step → nvim-dap | 🔜 |
 
-**Nejbližší (píše se jako první):** B0, B1, B2.
+**Hotovo:** B0, B1, B2. **Nejbližší na řadě:** B3, B4.
 
 ## Track C — Recepty 🔜
 

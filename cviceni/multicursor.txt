@@ -1,0 +1,23 @@
+Cvičný soubor k lekci B1 — Multi-cursor. Obnova: git checkout -- multicursor.txt
+
+=== PŘEJMENOVÁNÍ (cgn + .) ===
+foo prvni vyskyt
+neco foo tady
+uplne jiny radek
+zase foo potreti
+a foo naposled
+Kurzor na foo → * → cgn bar Esc → . (změň) nebo n (přeskoč).
+
+=== STŘEDNÍKY NA KONEC (Ctrl-v + $ + A) ===
+let a = 1
+let b = 2
+let c = 3
+let d = 4
+let e = 5
+Ctrl-v → jjjj (označ sloupec přes řádky) → $ → A; → Esc
+
+=== ZAKOMENTOVÁNÍ SLOUPCE (Ctrl-v + I) ===
+prvni radek k zakomentovani
+druhy radek k zakomentovani
+treti radek k zakomentovani
+Ctrl-v → jj → I// (mezera) → Esc
