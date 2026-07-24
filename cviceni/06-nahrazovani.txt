@@ -1,0 +1,28 @@
+Cvičný soubor k lekci 06 — Hledání a nahrazování.
+Originál je v gitu, klidně ho rozsekej: obnovíš přes `git checkout -- 06-nahrazovani.txt`.
+
+=== HLEDÁNÍ ===
+Tady je foo. A o kus dál zase foo. A ještě jednou foo na konci.
+Proskákej výskyty foo pomocí / n N. Zkus taky * nad slovem foo.
+
+=== NAHRAZOVÁNÍ NA JEDNOM ŘÁDKU ===
+barva barva barva barva barva  <- nejdřív bez g (první), pak s g (všechny)
+
+=== POTVRZOVÁNÍ (confirm) ===
+TODO umýt nádobí
+TODO zalít kytky
+TODO naučit se vim
+TODO odškrtnout tenhle řádek
+Použij :%s/TODO/HOTOVO/gc a vyzkoušej y / n / a.
+
+=== NAHRAZENÍ JEN VE VÝBĚRU ===
+x tenhle řádek ano
+x tenhle taky
+x a tenhle
+y tenhle NE (nech být)
+Označ první tři řádky přes V, pak :'<,'>s/^x/-/
+
+=== BONUS: skupiny ===
+Kratochvil Petr
+Novak Jan
+Prohoď na "Prijmeni, Jmeno" přes :%s/\(\w\+\) \(\w\+\)/\2, \1/
