@@ -1,0 +1,15 @@
+Cvičný soubor k lekci 04 — Gramatika. Obnova: git checkout -- 04-gramatika.txt
+
+ciw: přepiš tohle_slovo na jiné.
+ci(: smaž a přepiš obsah (tady uvnitř závorek).
+ci": nahraď text "uvnitř uvozovek" něčím jiným.
+dt. a df.: smaž až k tečce. Vnímej rozdíl mezi t a f.
+d2w: smaž dvě slova jedna dvě zbytek nech.
+
+Odstavec k odsazení přes >ip:
+tenhle
+celý
+odstavec
+odsaď najednou.
+
+Zopakuj poslední změnu přes . — smaž slovo XXX, popojdi na XXX, zmáčkni tečku, zase XXX.

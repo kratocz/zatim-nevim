@@ -1,0 +1,11 @@
+Cvičný soubor k lekci 05 — Registry. Obnova: git checkout -- 05-registry.txt
+
+PŘESUN: tenhle řádek přesuň dolů přes dd a p.
+cíl přesunu ↑ vlož ho sem někam.
+
+DUPLIKACE: tenhle řádek zduplikuj přes yy a p.
+
+REGISTR a: zkopíruj SLOVO tady přes "ayiw a vlož ho na konec tohoto řádku ->
+a sem:
+
+CLIPBOARD: tenhle řádek zkopíruj přes "+yy a vlož ho mimo vim (do prohlížeče/poznámek).

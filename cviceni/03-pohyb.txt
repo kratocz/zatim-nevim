@@ -1,0 +1,13 @@
+Cvičný soubor k lekci 03 — Pohyb. Obnova: git checkout -- 03-pohyb.txt
+
+Řádek 1  — začni tady.
+Řádek 2  — skoč sem přes 2G nebo :2
+Slova: alfa beta gama delta epsilon — proskákej je přes w a b.
+Interpunkce: najdi-tuhle,čárku a tuhle.tečku přes f, a f.
+Dlouhý řádek k procvičení 0 ^ a $:        text až na konci ->  CÍL
+.
+.
+.
+Řádek 10 — dostaň se sem přes 10G i přes :10 a porovnej.
+Řádek 11
+Řádek 12 — a zpátky na začátek přes gg, na konec přes G.
